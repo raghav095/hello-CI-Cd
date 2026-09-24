@@ -1,14 +1,13 @@
-name: Hello GitHub Actions
+name: Raghav Rathi Workflow
 on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  greeting-job:
+    name: Raghav Rathi Job
     runs-on: ubuntu-latest
     steps:
-      - name: Print message
-        run: echo "Hello from GitHub Actions!"
-      - name: Greeting Raghav Rathi
+      - name: Personal Greeting
         run: echo "Hello Raghav Rathi! Hello bhai mere!"
       - name: Show date
         run: date
